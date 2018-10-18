@@ -1,0 +1,47 @@
+{
+  "name": "vgApp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "gulp start & node  app.js"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "async-waterfall": "^0.1.5",
+    "aws-sdk": "^2.164.0",
+    "body-parser": "~1.13.2",
+    "browser-sync": "^2.18.13",
+    "express": "~4.13.1",
+    "express-device": "^0.4.2",
+    "express-mailer": "^0.3.0",
+    "http-status": "^1.0.1",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.0.0",
+    "jwt-decode": "^2.2.0",
+    "kerberos": "0.0.17",
+    "lodash.where": "^3.1.0",
+    "md5": "^2.0.0",
+    "method-override": "^2.3.x",
+    "mongodb": "^3.0.8",
+    "mongoose": "^5.0.17",
+    "mongoose-double": "0.0.1",
+    "nconf": "^0.6.x",
+    "node-uuid": "^1.4.7",
+    "razorpay": "^2.0.1",
+    "request": "^2.83.0",
+    "winston": "^0.8.x"
+  },
+  "description": "REST API for mobile applications using Node.js and Express.js framework with Mongoose.js for working with MongoDB. For access control this project use OAuth 2.0, with the help of OAuth2orize and Passport.js.",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "KarthickEswar",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtualgodown/demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/virtualgodown/vg/issues"
+  },
+  "homepage": "https://github.com/virtualgodown/virtualgodown"
+}
